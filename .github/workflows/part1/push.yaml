@@ -1,4 +1,4 @@
-name: push-workflow
+name: push-workflow_part1
 on: push
 
 jobs:
@@ -13,3 +13,4 @@ jobs:
         echo ${{ github.sha }}
         echo ${{ github.ref }}
         echo "This is a GitHub Action"
+        echo "This is a GitHub push event"
