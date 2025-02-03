@@ -13,3 +13,4 @@ jobs:
         echo ${{ github.sha }}
         echo ${{ github.ref }}
         echo "This is a GitHub Action"
+        echo "This is a GitHub push event"
